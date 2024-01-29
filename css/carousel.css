@@ -17,7 +17,7 @@
   height: min-content;
   border: 1px solid #6495ed;
   transition: 0.4s opacity,background-color ease;
-  width: min(30vw,40vh);
+  width: min(30vw,20vh);
   z-index: 10;
   height: calc(2.3rem) !important;
   display: flex;
@@ -121,6 +121,7 @@ container::-webkit-scrollbar-thumb {
   position: fixed;
   bottom: 5vh;
   width: 100vw;
+  z-index: 21;
 }
 
 .dropdownoption {
@@ -163,7 +164,7 @@ container::-webkit-scrollbar-thumb {
   flex-direction: column;
   bottom: calc( 100% + 10px );
   border-radius: 10px;
-  z-index: 100;
+  z-index: -1;
   animation: fadeOutFromBelow 0.2s ease-out forwards;
 
   
@@ -184,7 +185,7 @@ container::-webkit-scrollbar-thumb {
   border-radius: 30px;
   height: calc( 1rem + 1.3rem + 2 * 0.6rem);
   align-items: center;
-  width: min(30vw,40vh);
+  width: min(30vw,20vh);
   justify-content: space-evenly;
   margin: 0.5rem;
   margin-left: 1.5rem;
@@ -221,4 +222,61 @@ container::-webkit-scrollbar-thumb {
     z-index: -1;
 
   }
+}
+
+.showfallback {
+  width: 80vw;
+  height: calc((80vw) * 9 / 16);
+  border-radius: 10px;
+  border: 3px solid rgb(161, 161, 161);
+}
+
+.fallbackfurther {
+  cursor: pointer;
+  margin: 20px;
+  padding: 1rem;
+  background-color: var(--third_color);
+  border-radius: 20px;
+  margin: 0.5rem;
+  font-size: 1.3rem;
+  font-family: system-ui;
+  position: relative;
+  margin: 0;
+  /* margin-left: 18px; */
+  text-align: center;
+  color: rgba(255,255,255,1);
+  font-weight: 100;
+  height: min-content;
+  border: 1px solid #6495ed;
+  transition: 0.4s opacity,background-color ease;
+  width: min(30vw,20vh);
+  z-index: 10;
+  height: calc(2.3rem) !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.bg_grey{
+  z-index: -1;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(100,100,100,0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.3s opacity ease-in-out;
+  pointer-events: none;
+}
+
+.open_fallback {
+  opacity: 1;
+  z-index: 20;
+
 }
