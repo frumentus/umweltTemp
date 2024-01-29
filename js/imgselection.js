@@ -11,6 +11,15 @@ function movenewrandom(){
     }
 }
 
+const fallbackfurther = document.querySelector(".fallbackfurther")
+const fallback_bg_grey = document.querySelector(".bg_grey")
+fallbackfurther.addEventListener('click', () => {
+    fallback_bg_grey.classList.toggle("open_fallback")
+})
+
+fallback_bg_grey.addEventListener('click',() => {fallbackfurther.click()})
+
+
 
 const dropdown1 = document.querySelector(".dropdown1")
 const dropdown2 = document.querySelector(".dropdown2")
