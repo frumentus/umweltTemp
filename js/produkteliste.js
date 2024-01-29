@@ -21,17 +21,17 @@ Bitte drücken sie auf senden, damit wir ihre Bestelllung registrieren können.
 ***automatisch generiert - Bitte Nicht ändern!***
 `
 const produkt_liste = {
-    // "0": {
+    "0": {
 
-    //     "id": "a57305c5efc4d3aac8b9ab991454d7fad46a90b71dfc97a530bb1ad3c7c83192",
-    //     "productname": "Fallback",
-    //     "productimage": {    
-    //         "imagebits": "./Img/Fallback.png",
-    //         "imagebgc" : "rgba(255,255,255,1)"
-    //         },
-    //     "isinitial":false,
-    //     "organic" : "",
-    //     },
+        "id": "a57305c5efc4d3aac8b9ab991454d7fad46a90b71dfc97a530bb1ad3c7c83192",
+        "productname": "Fallback",
+        "productimage": {    
+            "imagebits": "./Img/Fallback.png",
+            "imagebgc" : "rgba(255,255,255,1)"
+            },
+        "isinitial":false,
+        "organic" : "",
+        },
 
 
     "1": {
@@ -83,7 +83,7 @@ const produkt_liste = {
     "5": {
 
         "id": "07b4186b38fe145108da1ed7a2b8b49975a7eb033bd32f2e785ab5a0e2673262",
-        "productname": "Fux Bild",
+        "productname": "Fuchs Bild",
         "productimage": {    
             "imagebits": "./Img/Fux_3.png",
             "imagebgc" : "rgba(255,255,255,1)"
@@ -105,7 +105,7 @@ const produkt_liste = {
     "7": {
 
         "id": "3373fc9283e59e4d437a420cf036f223c1d6b45a613d8d043b1a95fa27ae01fd",
-        "productname": "Affen Bild",
+        "productname": "Igel Bild",
         "productimage": {    
             "imagebits": "./Img/Igel_2.png",
             "imagebgc" : "rgba(255,255,255,1)"
