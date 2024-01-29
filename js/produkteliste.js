@@ -85,7 +85,7 @@ const produkt_liste = {
         "id": "07b4186b38fe145108da1ed7a2b8b49975a7eb033bd32f2e785ab5a0e2673262",
         "productname": "Fuchs Bild",
         "productimage": {    
-            "imagebits": "./Img/Fux_3.png",
+            "imagebits": "./Img/Fuchs_3.png",
             "imagebgc" : "rgba(255,255,255,1)"
             },
         "isinitial":true,
