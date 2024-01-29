@@ -21,17 +21,17 @@ Bitte drücken sie auf senden, damit wir ihre Bestelllung registrieren können.
 ***automatisch generiert - Bitte Nicht ändern!***
 `
 const produkt_liste = {
-    "0": {
+    // "0": {
 
-        "id": "a57305c5efc4d3aac8b9ab991454d7fad46a90b71dfc97a530bb1ad3c7c83192",
-        "productname": "Fallback",
-        "productimage": {    
-            "imagebits": "./Img/Fallback.png",
-            "imagebgc" : "rgba(255,255,255,1)"
-            },
-        "isinitial":false,
-        "organic" : "",
-        },
+    //     "id": "a57305c5efc4d3aac8b9ab991454d7fad46a90b71dfc97a530bb1ad3c7c83192",
+    //     "productname": "Fallback",
+    //     "productimage": {    
+    //         "imagebits": "./Img/Fallback.png",
+    //         "imagebgc" : "rgba(255,255,255,1)"
+    //         },
+    //     "isinitial":false,
+    //     "organic" : "",
+    //     },
 
 
     "1": {
