@@ -46,7 +46,6 @@ if (ismobileclause) {
 
   }
   else {
-  document.body.classList.add('mobile');
   document.body.classList.add('noarrow');
   }
 }
