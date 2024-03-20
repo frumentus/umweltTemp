@@ -83,7 +83,7 @@ const produkt_liste = {
     "5": {
 
         "id": "07b4186b38fe145108da1ed7a2b8b49975a7eb033bd32f2e785ab5a0e2673262",
-        "productname": "Standart Hintergrund",
+        "productname": "Standard Hintergrund",
         "productimage": {    
             "imagebits": "./Img/Fuchs_3.png",
             "imagebgc" : "rgba(255,255,255,1)"
