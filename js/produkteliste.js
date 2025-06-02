@@ -1,5 +1,5 @@
 const opendate = new Date(2022,11,10,8);
-const closedate = new Date(2024,11,15,17);
+const closedate = new Date(2025,11,15,17);
 const orgaemail = "fab.schul4@outlook.de"
 
 // Abholung
